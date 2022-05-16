@@ -1,9 +1,3 @@
-// type Todo = {
-//   id: number;
-//   title: string;
-//   done: boolean;
-// };
-
 interface Todo {
   id: number;
   title: string;
@@ -55,12 +49,12 @@ function addTwoTodoItems(): void {
   // addTodo() 함수를 두 번 호출하여 todoItems에 새 할 일이 2개 추가되어야 합니다.
   addTodo({
     id: 4,
-    title: '아이템 4',
+    title: "'아이템 4'",
     done: false,
   });
   addTodo({
     id: 5,
-    title: '아이템 5',
+    title: "'아이템 5'",
     done: false,
   });
 }
